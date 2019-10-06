@@ -1,0 +1,5 @@
+class himu{
+    public static void main(String[] args){
+        System.out.println("ajbdbdbdbd");
+    }
+}
