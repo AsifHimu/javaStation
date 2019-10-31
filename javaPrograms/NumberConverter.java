@@ -1,24 +1,22 @@
-import java.lang.*;
-
 class conversion{
     int num;
     void setnumber(int n){
         num=n;
     }
     String toDecimal(){
-        String dec=Integar.toString(num);
+        String dec=Integer.toString(num);
         return dec;
     }
     String toHex(){
-        String hex=Integar.toHexString(num);
+        String hex=Integer.toHexString(num);
         return hex;
     }
     String toBinary(){
-        String bin=Integar.toBinaryString(num);
+        String bin=Integer.toBinaryString(num);
         return bin;
     }
     String toOctal(){
-        String oct=Integar.toOctalString(num);
+        String oct=Integer.toOctalString(num);
         return oct;
     }
 }
