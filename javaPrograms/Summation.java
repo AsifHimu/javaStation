@@ -9,7 +9,7 @@ class add extends Frame implements ActionListener {
     public add(){
         setResizable(false);
         setTitle("Addition");
-        setSize(500,500);
+        setSize(300,300);
         setLocation(100,100);
         lbl_fnum = new Label("First Number");
         lbl_snum = new Label("Second Number");
@@ -23,9 +23,9 @@ class add extends Frame implements ActionListener {
         txt_fnum.setBounds(150, 50, 100, 20);
         lbl_snum.setBounds(10, 100, 130, 20);
         txt_snum.setBounds(150, 100, 100, 20);
-        btn_add.setBounds(90, 200, 70, 20);
-        lbl_result.setBounds(10,150,100,20);
-        txt_sum.setBounds(150, 150, 100, 50);
+        btn_add.setBounds(150, 200, 70, 20);
+        lbl_result.setBounds(10,150,130,20);
+        txt_sum.setBounds(150, 150, 100, 20);
 
         add(lbl_fnum);
         add(txt_fnum);
